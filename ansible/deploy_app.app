@@ -2,7 +2,6 @@
 - hosts:  servers
   become: true
   vars:
-    project_repo: https://github.com/gourteacher/devops2.git
     project_location: /srv/long_running_python_process
     program_name: long_running_process
 
